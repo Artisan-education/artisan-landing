@@ -4773,9 +4773,12 @@ body {
 .uui-layout08_item {
   grid-column-gap: 2px;
   grid-row-gap: 2px;
+  grid-template-rows: auto;
+  grid-template-columns: .25fr 1fr;
+  grid-auto-columns: 1fr;
   justify-content: flex-start;
   align-items: center;
-  display: flex;
+  display: grid;
 }
 
 .uui-layout08_item-list {
